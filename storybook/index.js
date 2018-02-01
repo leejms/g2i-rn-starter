@@ -6,6 +6,8 @@ import { getStorybookUI, configure } from '@storybook/react-native';
 // import stories
 configure(() => {
   require('./stories');
+  require('./stories/Button');
+
 }, module);
 
 // This assumes that storybook is running on the same host as your RN packager,
@@ -21,5 +23,5 @@ class StorybookUIHMRRoot extends Component {
   }
 }
 
-AppRegistry.registerComponent('g2i-rn-starter', () => StorybookUIHMRRoot);
+AppRegistry.registerComponent('%APP_NAME%', () => StorybookUIHMRRoot);
 export default StorybookUIHMRRoot;
