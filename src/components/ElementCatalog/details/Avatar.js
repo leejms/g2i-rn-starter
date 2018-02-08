@@ -1,6 +1,6 @@
-import React from "react";
-import { View, ScrollView, StyleSheet } from "react-native";
-import Avatar from "../../elements/Avatar";
+import React from 'react';
+import { View, ScrollView, StyleSheet } from 'react-native';
+import Avatar from '../../elements/Avatar';
 
 const AvatarDetails = () => {
   return (
@@ -11,9 +11,9 @@ const AvatarDetails = () => {
           rounded
           source={{
             uri:
-              "https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg"
+              'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg'
           }}
-          onPress={() => console.log("Works!")}
+          onPress={() => console.log('Works!')}
           activeOpacity={0.7}
         />
       </View>
@@ -22,9 +22,9 @@ const AvatarDetails = () => {
           medium
           source={{
             uri:
-              "https://s3.amazonaws.com/uifaces/faces/twitter/kfriedson/128.jpg"
+              'https://s3.amazonaws.com/uifaces/faces/twitter/kfriedson/128.jpg'
           }}
-          onPress={() => console.log("Works!")}
+          onPress={() => console.log('Works!')}
           activeOpacity={0.7}
         />
       </View>
@@ -32,9 +32,9 @@ const AvatarDetails = () => {
         <Avatar
           large
           source={{
-            uri: "https://s3.amazonaws.com/uifaces/faces/twitter/brynn/128.jpg"
+            uri: 'https://s3.amazonaws.com/uifaces/faces/twitter/brynn/128.jpg'
           }}
-          onPress={() => console.log("Works!")}
+          onPress={() => console.log('Works!')}
           activeOpacity={0.7}
         />
       </View>
@@ -44,9 +44,9 @@ const AvatarDetails = () => {
           rounded
           source={{
             uri:
-              "https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg"
+              'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg'
           }}
-          onPress={() => console.log("Works!")}
+          onPress={() => console.log('Works!')}
           activeOpacity={0.7}
         />
       </View>

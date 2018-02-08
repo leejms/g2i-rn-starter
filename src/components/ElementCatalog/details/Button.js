@@ -1,18 +1,18 @@
-import React from "react";
+import React from 'react';
 import {
   View,
   ScrollView,
   StyleSheet,
   Text
-} from "react-native";
-import Button from "../../elements/Button";
+} from 'react-native';
+import Button from '../../elements/Button';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 export default (ButtonDetails = () => {
   return (
     <ScrollView>
       <View style={styles.component}>
-        <Button text="BUTTON" />
+        <Button text='BUTTON' />
       </View>
 <View>
   <Button
@@ -33,8 +33,8 @@ export default (ButtonDetails = () => {
 const styles = StyleSheet.create({
   component: {
     margin: 20,
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "center"
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center'
   }
 });

@@ -1,13 +1,13 @@
-import React from "react";
+import React from 'react';
 import {
   View,
   ScrollView,
   StyleSheet,
   Text,
   TouchableOpacity
-} from "react-native";
+} from 'react-native';
 
-import ButtonGroup from "../../elements/ButtonGroup";
+import ButtonGroup from '../../elements/ButtonGroup';
 
 export default class ButtonGroupDetails extends React.Component {
   constructor() {
@@ -23,7 +23,7 @@ export default class ButtonGroupDetails extends React.Component {
   }
 
   render() {
-    const buttons = ["Hello", "World", "Buttons"];
+    const buttons = ['Hello', 'World', 'Buttons'];
     const { selectedIndex } = this.state;
 
     return (
@@ -42,8 +42,8 @@ export default class ButtonGroupDetails extends React.Component {
 const styles = StyleSheet.create({
   component: {
     margin: 20,
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "center"
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center'
   }
 });
