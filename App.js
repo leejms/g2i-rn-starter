@@ -1,11 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import StorybookUI from './storybook';
+import ElementCatalog from './src/components/ElementCatalog';
 
 export default class App extends React.Component {
   render() {
     return (
-      <StorybookUI/>
+      <ElementCatalog/>
     );
   }
 }

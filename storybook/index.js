@@ -7,6 +7,7 @@ import { getStorybookUI, configure } from '@storybook/react-native';
 configure(() => {
   require('./stories');
   require('./stories/Button');
+  require('./stories/Avatar');
 
 }, module);
 
