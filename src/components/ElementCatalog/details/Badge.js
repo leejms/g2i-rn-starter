@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, ScrollView, StyleSheet, Text, TouchableOpacity } from 'react-native';
+import { View, ScrollView, StyleSheet, Text } from 'react-native';
 import Badge from '../../elements/Badge';
 
 export default (BadgeDetails = () => {

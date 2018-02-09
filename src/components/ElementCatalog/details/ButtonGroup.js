@@ -1,10 +1,7 @@
 import React from 'react';
 import {
   View,
-  ScrollView,
-  StyleSheet,
-  Text,
-  TouchableOpacity
+  StyleSheet
 } from 'react-native';
 
 import ButtonGroup from '../../elements/ButtonGroup';
