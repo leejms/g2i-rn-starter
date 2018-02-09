@@ -1,11 +1,7 @@
-import React from "react";
-import {
-  View,
-  ScrollView,
-  StyleSheet,
-} from "react-native";
+import React from 'react';
+import { View, ScrollView, StyleSheet } from 'react-native';
 
-import {Input} from "../../elements";
+import { Input } from '../../elements';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 export default (InputDetails = () => {
@@ -27,7 +23,7 @@ export default (InputDetails = () => {
         <Input
           placeholder="INPUT WITH ERROR MESSAGE"
           displayError={true}
-          errorStyle={{ color: "red" }}
+          errorStyle={{ color: 'red' }}
           errorMessage="ENTER A VALID ERROR HERE"
         />
       </View>
@@ -38,8 +34,8 @@ export default (InputDetails = () => {
 const styles = StyleSheet.create({
   component: {
     margin: 20,
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "center"
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center'
   }
 });

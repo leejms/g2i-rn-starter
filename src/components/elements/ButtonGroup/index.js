@@ -1,8 +1,6 @@
-import React from 'react'
-import {ButtonGroup} from 'react-native-elements'
+import React from 'react';
+import { ButtonGroup } from 'react-native-elements';
 
-export default (props) => {
-    return (
-        <ButtonGroup {...props}/>
-    );
-}
+export default props => {
+  return <ButtonGroup {...props} />;
+};

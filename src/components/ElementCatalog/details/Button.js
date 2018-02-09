@@ -1,7 +1,7 @@
-import React from "react";
-import { View, ScrollView, StyleSheet } from "react-native";
-import { Button } from "../../elements";
-import Icon from "react-native-vector-icons/FontAwesome";
+import React from 'react';
+import { View, ScrollView, StyleSheet } from 'react-native';
+import { Button } from '../../elements';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 export default (ButtonDetails = () => {
   return (
@@ -26,13 +26,13 @@ export default (ButtonDetails = () => {
         <Button
           text="LOADING BUTTON"
           loading
-          loadingProps={{ size: "large", color: "rgba(111, 202, 186, 1)" }}
-          textStyle={{ fontWeight: "700" }}
+          loadingProps={{ size: 'large', color: 'rgba(111, 202, 186, 1)' }}
+          textStyle={{ fontWeight: '700' }}
           buttonStyle={{
-            backgroundColor: "rgba(92, 99,216, 1)",
+            backgroundColor: 'rgba(92, 99,216, 1)',
             width: 300,
             height: 45,
-            borderColor: "transparent",
+            borderColor: 'transparent',
             borderWidth: 0,
             borderRadius: 5
           }}
@@ -46,8 +46,8 @@ export default (ButtonDetails = () => {
 const styles = StyleSheet.create({
   component: {
     margin: 20,
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "center"
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center'
   }
 });

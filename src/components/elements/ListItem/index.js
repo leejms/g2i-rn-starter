@@ -1,8 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { ListItem } from 'react-native-elements';
 
-export default (props) => {
-    return (
-        <ListItem {...props}>{props.children}</ListItem>
-    );
-}
+export default props => {
+  return <ListItem {...props}>{props.children}</ListItem>;
+};

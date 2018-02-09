@@ -1,8 +1,6 @@
-import React from 'react'
-import {Header} from 'react-native-elements'
+import React from 'react';
+import { Header } from 'react-native-elements';
 
-export default (props) => {
-    return (
-        <Header {...props}/>
-    );
-}
+export default props => {
+  return <Header {...props} />;
+};

@@ -1,8 +1,6 @@
-import React from 'react'
-import {Icon} from 'react-native-elements'
+import React from 'react';
+import { Icon } from 'react-native-elements';
 
-export default (props) => {
-    return (
-        <Icon {...props}/>
-    );
-}
+export default props => {
+  return <Icon {...props} />;
+};

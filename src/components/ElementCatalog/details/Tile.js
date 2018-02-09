@@ -1,6 +1,6 @@
-import React from "react";
-import { ScrollView, View, StyleSheet, Text } from "react-native";
-import { Tile } from "../../elements";
+import React from 'react';
+import { ScrollView, View, StyleSheet, Text } from 'react-native';
+import { Tile } from '../../elements';
 
 export default class PricingDetails extends React.Component {
   constructor(props) {
@@ -21,7 +21,7 @@ export default class PricingDetails extends React.Component {
         <Tile
           imageSrc={{
             uri:
-              "https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/68dd54ca-60cf-4ef7-898b-26d7cbe48ec7/10-dithering-opt.jpg"
+              'https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/68dd54ca-60cf-4ef7-898b-26d7cbe48ec7/10-dithering-opt.jpg'
           }}
           title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores dolore exercitationem"
           featured
@@ -31,17 +31,17 @@ export default class PricingDetails extends React.Component {
         <Tile
           imageSrc={{
             uri:
-              "https://www.gettyimages.ca/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg"
+              'https://www.gettyimages.ca/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg'
           }}
           title="Lorem ipsum dolor sit amet, consectetur"
-          icon={{ name: "play-circle", type: "font-awesome" }} // optional
+          icon={{ name: 'play-circle', type: 'font-awesome' }} // optional
           contentContainerStyle={{ height: 70 }}
         >
           <View
             style={{
               flex: 1,
-              flexDirection: "row",
-              justifyContent: "space-between"
+              flexDirection: 'row',
+              justifyContent: 'space-between'
             }}
           >
             <Text>Caption</Text>

@@ -1,8 +1,5 @@
 import React from 'react';
-import {
-  View,
-  StyleSheet
-} from 'react-native';
+import { View, StyleSheet } from 'react-native';
 
 import ButtonGroup from '../../elements/ButtonGroup';
 
@@ -24,15 +21,15 @@ export default class ButtonGroupDetails extends React.Component {
     const { selectedIndex } = this.state;
 
     return (
-        <View>
-          <ButtonGroup
-            onPress={this.updateIndex}
-            selectedIndex={selectedIndex}
-            buttons={buttons}
-            containerStyle={{ height: 100 }}
-          />
-        </View>
-    )
+      <View>
+        <ButtonGroup
+          onPress={this.updateIndex}
+          selectedIndex={selectedIndex}
+          buttons={buttons}
+          containerStyle={{ height: 100 }}
+        />
+      </View>
+    );
   }
 }
 

@@ -1,6 +1,6 @@
-import React from "react";
-import { ScrollView, View, StyleSheet, Text } from "react-native";
-import { Slider } from "../../elements";
+import React from 'react';
+import { ScrollView, View, StyleSheet, Text } from 'react-native';
+import { Slider } from '../../elements';
 
 export default class PricingDetails extends React.Component {
   constructor(props) {
@@ -21,8 +21,8 @@ export default class PricingDetails extends React.Component {
         <View
           style={{
             flex: 1,
-            alignItems: "stretch",
-            justifyContent: "center",
+            alignItems: 'stretch',
+            justifyContent: 'center',
             margin: 20
           }}
         >
@@ -32,8 +32,8 @@ export default class PricingDetails extends React.Component {
         <View
           style={{
             flex: 1,
-            alignItems: "stretch",
-            justifyContent: "center",
+            alignItems: 'stretch',
+            justifyContent: 'center',
             margin: 20
           }}
         >

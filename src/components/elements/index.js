@@ -18,22 +18,22 @@ import SocialIcon from './SocialIcon';
 import Tile from './Tile';
 
 export {
-    Avatar,
-    Badge,
-    Button,
-    ButtonGroup,
-    Card,
-    CheckBox,
-    Divider,
-    Icon,
-    Input,
-    List,
-    ListItem,
-    Overlay,
-    PricingCard,
-    Rating,
-    SearchBar,
-    Slider,
-    SocialIcon,
-    Tile
-}
+  Avatar,
+  Badge,
+  Button,
+  ButtonGroup,
+  Card,
+  CheckBox,
+  Divider,
+  Icon,
+  Input,
+  List,
+  ListItem,
+  Overlay,
+  PricingCard,
+  Rating,
+  SearchBar,
+  Slider,
+  SocialIcon,
+  Tile
+};

@@ -1,20 +1,20 @@
-import React from "react";
-import { View, ScrollView, StyleSheet, Text, Image } from "react-native";
+import React from 'react';
+import { View, ScrollView, StyleSheet, Text, Image } from 'react-native';
 
-import { Avatar, Card, Button, ListItem } from "../../elements";
+import { Avatar, Card, Button, ListItem } from '../../elements';
 
 const users = [
   {
-    name: "mia zhang",
-    avatar: "https://randomuser.me/api/portraits/women/76.jpg"
+    name: 'mia zhang',
+    avatar: 'https://randomuser.me/api/portraits/women/76.jpg'
   },
   {
-    name: "Ryan Hawkins",
-    avatar: "https://randomuser.me/api/portraits/men/25.jpg"
+    name: 'Ryan Hawkins',
+    avatar: 'https://randomuser.me/api/portraits/men/25.jpg'
   },
   {
-    name: "Romain Hoogmoed",
-    avatar: "https://randomuser.me/api/portraits/men/83.jpg"
+    name: 'Romain Hoogmoed',
+    avatar: 'https://randomuser.me/api/portraits/men/83.jpg'
   }
 ];
 
@@ -55,8 +55,8 @@ export default (CardDetails = () => {
 const styles = StyleSheet.create({
   component: {
     margin: 20,
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "center"
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center'
   }
 });

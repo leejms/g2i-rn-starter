@@ -1,6 +1,6 @@
-import React from "react";
-import { ScrollView, StyleSheet } from "react-native";
-import { Rating } from "../../elements";
+import React from 'react';
+import { ScrollView, StyleSheet } from 'react-native';
+import { Rating } from '../../elements';
 
 export default class PricingDetails extends React.Component {
   constructor(props) {
@@ -10,7 +10,7 @@ export default class PricingDetails extends React.Component {
 
   ratingComplete = rating => {
     this.setState({ rating: rating });
-  }
+  };
 
   render() {
     return (

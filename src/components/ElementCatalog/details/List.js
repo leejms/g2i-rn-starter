@@ -1,29 +1,29 @@
-import React from "react";
-import { View, ScrollView, StyleSheet } from "react-native";
-import { List, ListItem } from "../../elements";
+import React from 'react';
+import { View, ScrollView, StyleSheet } from 'react-native';
+import { List, ListItem } from '../../elements';
 
 const list = [
   {
-    name: "Amy Farha",
+    name: 'Amy Farha',
     avatar_url:
-      "https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg",
-    subtitle: "Vice President"
+      'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
+    subtitle: 'Vice President'
   },
   {
-    name: "Chris Jackson",
+    name: 'Chris Jackson',
     avatar_url:
-      "https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg",
-    subtitle: "Vice Chairman"
+      'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
+    subtitle: 'Vice Chairman'
   }
 ];
 const list2 = [
   {
-    title: "Appointments",
-    icon: "av-timer"
+    title: 'Appointments',
+    icon: 'av-timer'
   },
   {
-    title: "Trips",
-    icon: "flight-takeoff"
+    title: 'Trips',
+    icon: 'flight-takeoff'
   }
 ];
 

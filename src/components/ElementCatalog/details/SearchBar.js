@@ -1,6 +1,6 @@
-import React from "react";
-import { ScrollView, StyleSheet } from "react-native";
-import { SearchBar } from "../../elements";
+import React from 'react';
+import { ScrollView, StyleSheet } from 'react-native';
+import { SearchBar } from '../../elements';
 
 export default class PricingDetails extends React.Component {
   constructor(props) {
@@ -9,7 +9,7 @@ export default class PricingDetails extends React.Component {
   }
 
   someMethod = text => {
-    console.log("SearchBar:", text);
+    console.log('SearchBar:', text);
   };
 
   render() {
@@ -46,7 +46,7 @@ export default class PricingDetails extends React.Component {
           lightTheme
           onChangeText={this.someMethod}
           onClearText={this.someMethod}
-          icon={{ type: "font-awesome", name: "search" }}
+          icon={{ type: 'font-awesome', name: 'search' }}
           placeholder="Type Here..."
         />
 

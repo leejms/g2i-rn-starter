@@ -1,8 +1,6 @@
-import React from 'react'
-import {Card} from 'react-native-elements'
+import React from 'react';
+import { Card } from 'react-native-elements';
 
-export default (props) => {
-    return (
-        <Card {...props}/>
-    );
-}
+export default props => {
+  return <Card {...props} />;
+};

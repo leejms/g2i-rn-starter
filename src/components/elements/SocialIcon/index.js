@@ -1,8 +1,6 @@
-import React from 'react'
-import {SocialIcon} from 'react-native-elements'
+import React from 'react';
+import { SocialIcon } from 'react-native-elements';
 
-export default (props) => {
-    return (
-        <SocialIcon {...props}/>
-    );
-}
+export default props => {
+  return <SocialIcon {...props} />;
+};

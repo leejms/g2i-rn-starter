@@ -1,8 +1,6 @@
-import React from 'react'
-import {SearchBar} from 'react-native-elements'
+import React from 'react';
+import { SearchBar } from 'react-native-elements';
 
-export default (props) => {
-    return (
-        <SearchBar {...props}/>
-    );
-}
+export default props => {
+  return <SearchBar {...props} />;
+};

@@ -1,8 +1,6 @@
-import React from 'react'
-import {CheckBox} from 'react-native-elements'
+import React from 'react';
+import { CheckBox } from 'react-native-elements';
 
-export default (props) => {
-    return (
-        <CheckBox {...props}/>
-    );
-}
+export default props => {
+  return <CheckBox {...props} />;
+};

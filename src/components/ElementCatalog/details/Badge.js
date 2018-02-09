@@ -18,7 +18,7 @@ export default (BadgeDetails = () => {
           onPress={() => {
             console.log('pressed');
           }}
-          value='5'
+          value="5"
         />
       </View>
     </ScrollView>

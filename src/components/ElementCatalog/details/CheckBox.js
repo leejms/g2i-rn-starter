@@ -17,7 +17,7 @@ export default class CheckBoxDetails extends React.Component {
       <ScrollView>
         <View style={styles.component}>
           <CheckBox
-            title='Click Here'
+            title="Click Here"
             checked={this.state.checked}
             onPress={this.toggleChecked}
           />
@@ -25,7 +25,7 @@ export default class CheckBoxDetails extends React.Component {
         <View style={styles.component}>
           <CheckBox
             center
-            title='Click Here'
+            title="Click Here"
             checked={this.state.checked}
             onPress={this.toggleChecked}
           />
@@ -33,9 +33,9 @@ export default class CheckBoxDetails extends React.Component {
         <View style={styles.component}>
           <CheckBox
             center
-            title='Click Here'
-            checkedIcon='dot-circle-o'
-            uncheckedIcon='circle-o'
+            title="Click Here"
+            checkedIcon="dot-circle-o"
+            uncheckedIcon="circle-o"
             checked={this.state.checked}
             onPress={this.toggleChecked}
           />
@@ -43,12 +43,12 @@ export default class CheckBoxDetails extends React.Component {
         <View style={styles.component}>
           <CheckBox
             center
-            title='Click Here to Remove This Item'
+            title="Click Here to Remove This Item"
             iconRight
-            iconType='material'
-            checkedIcon='clear'
-            uncheckedIcon='add'
-            checkedColor='red'
+            iconType="material"
+            checkedIcon="clear"
+            uncheckedIcon="add"
+            checkedColor="red"
             checked={this.state.checked}
             onPress={this.toggleChecked}
           />

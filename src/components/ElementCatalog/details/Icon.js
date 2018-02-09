@@ -1,11 +1,7 @@
-import React from "react";
-import {
-  View,
-  ScrollView,
-  StyleSheet
-} from "react-native";
+import React from 'react';
+import { View, ScrollView, StyleSheet } from 'react-native';
 
-import {Icon} from "../../elements";
+import { Icon } from '../../elements';
 
 export default (IconDetails = () => {
   return (
@@ -14,7 +10,7 @@ export default (IconDetails = () => {
         <Icon name="rowing" />
       </View>
       <View style={styles.component}>
-        <Icon name="g-translate" color="#00aced"/>
+        <Icon name="g-translate" color="#00aced" />
       </View>
       <View style={styles.component}>
         <Icon name="sc-telegram" type="evilicon" color="#517fa4" />
@@ -33,7 +29,7 @@ export default (IconDetails = () => {
           name="heartbeat"
           type="font-awesome"
           color="#f50"
-          onPress={() => console.log("hello")}
+          onPress={() => console.log('hello')}
         />
       </View>
     </ScrollView>
@@ -43,8 +39,8 @@ export default (IconDetails = () => {
 const styles = StyleSheet.create({
   component: {
     margin: 20,
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "center"
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center'
   }
 });

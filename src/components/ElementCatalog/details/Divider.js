@@ -1,6 +1,6 @@
-import React from "react";
-import { View, ScrollView, StyleSheet } from "react-native";
-import { Divider } from "../../elements";
+import React from 'react';
+import { View, ScrollView, StyleSheet } from 'react-native';
+import { Divider } from '../../elements';
 
 export default (DividerDetails = () => {
   return (
@@ -10,7 +10,7 @@ export default (DividerDetails = () => {
       </View>
       <Divider />
       <View style={styles.component}>
-        <Divider style={{ backgroundColor: "blue" }} />
+        <Divider style={{ backgroundColor: 'blue' }} />
       </View>
     </ScrollView>
   );
@@ -19,10 +19,10 @@ export default (DividerDetails = () => {
 const styles = StyleSheet.create({
   component: {
     margin: 20,
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "center",
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
     height: 100,
-    backgroundColor: "white"
+    backgroundColor: 'white'
   }
 });
